@@ -14,5 +14,6 @@ module ALU_Decoder(ALUOp,funct3,funct7,op,ALUControl);
                         ((ALUOp == 2'b10) & (funct3 == 3'b111)) ? 3'b010 : 3'b000 ;
 endmodule
 
+
 //Decoder block contains two parts main decoder and an alu decoder 
 //alu decoder reads the opcode and func3 and func7 and interprets the type of instruction and which operation to do
